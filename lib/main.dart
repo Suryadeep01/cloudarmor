@@ -41,7 +41,7 @@ class _WebViewAppState extends State<WebViewApp> {
       body: WebViewWidget(
         controller: WebViewController()
           ..setJavaScriptMode(JavaScriptMode.unrestricted)
-          ..loadRequest(Uri.parse('https://portal.cloudarmor.in/login.php')),
+          ..loadRequest(Uri.parse('https://cloudarmor.in/')),
       ),
     );
   }
